@@ -1,5 +1,3 @@
-// src/App.jsx
-import React from "react";
 import chartData from "./data/data.json";
 import ChartRenderer from "./components/ChartRenderer";
 

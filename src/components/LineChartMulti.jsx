@@ -1,8 +1,6 @@
-// src/components/LineChartMulti.jsx
 import React, { useEffect, useRef } from "react";
 import * as d3 from "d3";
-
-const colors = ["black", "green", "red"];
+const colors = ["Blue", "green", "red"];
 
 export default function LineChartMulti({ data }) {
   const ref = useRef();

@@ -1,11 +1,9 @@
-// src/components/ChartRenderer.jsx
-import React from "react";
 import LineChartSingle from "./LineChartSingle";
 import LineChartMulti from "./LineChartMulti";
-import "./ChartRenderer.css"; // Importing the CSS file
+import "./ChartRenderer.css";
 
 export default function ChartRenderer({ title, data }) {
-  const isMulti = Array.isArray(data[0][1]); // Check if value is array
+  const isMulti = Array.isArray(data[0][1]);
 
   return (
     <div className="chart-container">
